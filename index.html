@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="images/logo.jpg" alt="logo">
+    <h1>Main Heading</h1>
+    <h2>Sub Heading</h2>
+    <p>This page includes all the required elements: headings, paragraphs, a styled table, and a full HTML form with all input types and attributes.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nam temporibus repellendus totam? Quis, esse dignissimos necessitatibus qui ad temporibus ducimus libero eaque laborum, repudiandae quaerat dolorum hic eveniet vitae?</p>
+    <a href="https://www.google.com/" target="_blank">Visit Google</a>
+    <br>
+    <h2>Simple Student Table</h2>
+
+    <table width="900px" border="1px" style="border-collapse: collapse;">
+        <thead style="background-color: rgb(209, 209, 209);">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Ali</td>
+            <td>25</td>
+            <td>Cairo</td>
+        </tr>
+        <tr>
+            <td>Mona</td>
+            <td>19</td>
+            <td>Alex</td>
+        </tr>
+        <tr>
+            <td>Ahmed</td>
+            <td>66</td>
+            <td>Giza</td>
+        </tr>
+    </table>
+    
+    <br><br>
+    <form>
+    <h2>Full Form Task</h2>
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Enter Your Name" id="name" required>
+    <br><br>
+    <label for="Username">Username:</label>
+    <input type="text" id="Username" required>
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Example@gmail.com" id="email" required>
+    <br><br>
+    <label for="password">password:</label>
+    <input type="password" id="password" required>
+    <br><br>
+    <label for="Country">Country:</label>
+    <input type="text" placeholder="Egypt" id="Country" required>
+    <br><br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" required>
+    <br><br>
+    <label for="Birthday">Birthday:</label>
+    <input type="date" id="Birthday" required>
+    <br><br>
+    <label for="file">Choose a file:</label>
+    <input type="file" id="file" accept=".pdf" required>
+    <br><br>
+    <label for="City">Choose your city:</label>
+    <select name="City" id="City">
+        <option>Cairo</option>
+        <option>Giza</option>
+        <option>Alex</option>
+    </select>
+    <br><br>
+    <label>Favourite fruit:</label>
+    <input type="search" list="fruitlist" name="fruit" required>
+    <datalist id="fruitlist">
+        <option>Apple</option>
+        <option>banana</option>
+        <option>Orange</option>
+    </datalist>
+    <br><br>
+    <label>Gender:</label>
+    <br>
+    <input type="radio" id="m" value="m" name="gender" required>
+    <label for="m">Male</label>
+    <br>
+    <input type="radio" id="f" value="f" name="gender"  required>
+    <label for="f">Female</label>
+    <br><br>
+    <label>Skills:</label>
+    <br>
+    <input type="checkbox" value="HTML" name="html">
+    <label>HTML</label>
+    <br>
+    <input type="checkbox" value="CSS" name="css">
+    <label>CSS</label>
+    <br>
+    <input type="checkbox" value="JS" name="js">
+    <label>JS</label>
+    <br><br>
+    <label>Disabled input:</label>
+    <input type="text" placeholder="You can't edit here" disabled>
+    <br><br>
+    <label>Readonly input:</label>
+    <input type="text" placeholder="Read only text" readonly>
+    <br>
+    <label>Message:</label>
+    <br>
+    <textarea style="width:300px; height:50px;" placeholder="Write Something...."></textarea>
+    <br><br>
+   <button style="background-color: green; color: white; padding: 10px 20px; border-radius: 6px;">Submit</button>
+   </form>
+</body>
+</html>
